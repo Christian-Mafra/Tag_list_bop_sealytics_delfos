@@ -45,6 +45,7 @@ public class Main {
             Colar();                                                //colando
             robo.mouseMove(233,455);                          //Mover mouse para início do campo tag_opc
             Click(1);
+
             robo.mousePress(KeyEvent.BUTTON1_DOWN_MASK);            //Pressionar butão direito do mouse
             robo.mouseMove(350, 455);                        //Arrastar mouse
             robo.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);          //Soltar botão direito
